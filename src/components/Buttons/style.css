@@ -1,0 +1,44 @@
+.red-dropdown-button {
+  color: #09d8c4;
+}
+
+.red-dropdown-button:hover {
+  color: #09d8c4;
+}
+
+.stepper-container {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  width: auto;
+  margin: 20px;
+}
+
+.step {
+  position: relative;
+  height: 10px;
+  background-color: #ddd;
+  border-radius: 10px;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: #aaa;
+  }
+
+  &.active {
+    background-color: #0b7974;
+    color: #fff;
+  }
+}
+
+.line {
+  flex: 1;
+  height: 2px;
+  background-color: #ddd;
+  margin: 0 10px;
+}

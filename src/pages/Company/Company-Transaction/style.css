@@ -1,0 +1,122 @@
+.user-popup-1 {
+    width: 1200px;
+    height: 800px;
+    border-radius: 10px;
+    background-color: white;
+  }
+  .popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .u-title-2{
+    padding-left:300px;
+    font-size:16px;
+    font-weight:500;
+    color:#2222224D;
+    /* padding-top:50px; */
+  }
+  .u-title-3{
+    padding-left:300px;
+    font-size:16px;
+    font-weight:500;
+    color:#2222224D;
+    /* padding-top:50px; */
+  }
+  .value-2{
+    padding-left: 300px;
+    font-size: 16px;
+    color: black;
+  }
+  .main-title{
+    font-size: 23px;
+    font-weight: 500;
+    font-family: Roboto, Medium;
+    color: #1F074F;
+    padding-left: 450px;
+  }
+  .clear-btn-1{
+    background: none;
+    border: none;
+    width: 34px;
+    height: 34px;
+    margin-left: 1150px;
+  }
+  .btn1{
+  width:186px ;
+  height:42px ;
+  border: 1px solid #09D8C4;
+  border-radius: 5px;
+  font-size: 18px;
+  background: none;
+  margin-top: 100px;
+  margin-left: 500px;
+  color: #09D8C4;
+  margin-bottom:20px;
+  
+  }
+  .btn2{
+    width: 156px;
+    height: 42px;
+    border-radius: 5px;
+    font-size: 18px;
+    background: #1F074F;
+    color: #09D8C4;
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-bottom:20px;
+  }
+  .main-title-2{
+    font-size: 23px;
+    font-weight: 500;
+    font-family: Roboto, Medium;
+    color: #22222299;
+    padding-left: 460px;
+  }
+.ctl-main-div{
+  width:1490px;
+  height:82vh;
+  background:white;
+  margin-top:40px;
+  margin-left:50px;
+  border-radius:10px;
+  padding:0px 10px 0px 20px ;
+}
+.p-main-div {
+  width: auto;
+  background: white;
+  margin-top: 40px;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-radius: 10px;
+  padding: 0px 10px 0px 20px;
+}
+.company-main-height {
+  padding: 0px;
+  width: calc(100% - 260px) !important;
+  background: #fafafa;
+}
+
+.company-dashboard-main-div {
+  /* width: 100%; */
+  background: white;
+  border-radius: 10px;
+  margin: 20px 20px 0px 20px;
+  padding: 20px;
+}
+.input-container {
+ 
+  display: flex;
+  justify-content: space-between;
+}
+@media only screen and (max-width: 1024px) {
+  .input-container {
+    flex-direction: column; 
+  }
+}

@@ -1,0 +1,135 @@
+.listing {
+  width: auto;
+  height: 62px;
+  border: 1px solid rgba(11, 121, 116, 1);
+  color: #1f074f;
+  border-radius: 10px;
+  margin: 20px;
+  /* margin-left:20px; */
+}
+.rule-text {
+  font-size: 30px;
+  padding-left: 20px;
+  padding-top: 20px;
+  font-weight: 500;
+  color: #22222299;
+}
+.event {
+  width: 1190px;
+  height: 55px;
+  border: 1px solid #09d8c4;
+  color: #1f074f;
+  border-radius: 10px;
+  margin-top: 40px;
+  margin-left: 200px;
+}
+
+.user-popup {
+  width: 1100px;
+  height: 700px;
+  border-radius: 10px;
+  background-color: white;
+}
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.u-title{
+  padding-left:300px;
+  font-size:16px;
+  font-weight:500;
+  color:#2222224D;
+}
+.u-title-1{
+  padding-left:300px;
+  font-size:16px;
+  font-weight:500;
+  color:#2222224D;
+  padding-top:50px;
+}
+.value{
+  padding-left: 300px;
+  font-size: 16px;
+  color: black;
+}
+.main-title{
+  font-size: 23px;
+  font-weight: 500;
+  font-family: Roboto, Medium;
+  color: #1F074F;
+  padding-left: 450px;
+}
+.clear-btn{
+  background: none;
+  border: none;
+  width: 34px;
+  height: 34px;
+  margin-left: 1060px;
+}
+.btn1{
+width:186px ;
+height:42px ;
+border: 1px solid #09D8C4;
+border-radius: 5px;
+font-size: 18px;
+background: none;
+margin-top: 100px;
+margin-left: 500px;
+color: #09D8C4;
+margin-bottom:20px;
+
+}
+.btn2{
+  width: 156px;
+  height: 42px;
+  border-radius: 5px;
+  font-size: 18px;
+  background: #1F074F;
+  color: #09D8C4;
+  margin-top: 100px;
+  margin-left: 20px;
+  margin-bottom:20px;
+}
+
+.earning-title{
+  font-size: 43px;
+  color: black;
+  font-family: Roboto, Medium ;
+
+}
+
+
+.add-event-title{
+  font-size: 43px;
+ color: #1F074F;
+ font-family: Roboto, Medium;
+ font-weight: 700;
+   margin-left: 590px;
+}
+
+#root .ae-textfield{
+  width: 580px;
+  margin-left: 200px;
+  font-size: 10px;
+  margin-top: 20px;
+}
+#root .ae-textfield1{
+  width: 580px;
+  margin-left: 20px;
+  font-size: 10px;
+  margin-top: 20px;
+}
+#root .ae-textfield-desc{
+  width: 1180px;
+  margin-left: 200px;
+  font-size: 10px;
+  margin-top: 20px;
+}
+

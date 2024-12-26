@@ -1,0 +1,237 @@
+.frnd-popup {
+   width: 500px;
+   height: 291px;
+   background-color: white;
+   border-radius: 10px;
+
+}
+
+.popup-overlay {
+   position: fixed;
+   top: 0;
+   left: 0;
+   right: 0;
+   width: 100%;
+   height: 100%;
+   background-color: rgba(0, 0, 0, 0.5);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.cross-btn {
+   background: none;
+   border: none;
+   margin-left: 860px;
+}
+
+.frnd-card-header {
+   display: flex;
+   margin-top: 20px;
+   justify-content: space-between;
+}
+
+.frnd-card-title-design {
+   width: 16px;
+   height: 32px;
+   background: #0B7974;
+   border-radius: 5px;
+}
+
+.frnd-card-title {
+   font-size: 23px;
+   font-weight: 500;
+   color: black;
+   padding-left: 30px;
+   padding-bottom: 30px;
+}
+
+.frnd-btn {
+   width: 36px;
+   height: 36px;
+   background: none;
+   color: white;
+   border: none;
+   border-radius: 50%;
+   margin-right: 20px;
+}
+
+.frnd-cancel-btn {
+   width: 100px;
+   height: 42px;
+   border: 1px solid rgba(11, 121, 116, 1);
+   border-radius: 10px;
+   font-size: 18px;
+   background: none;
+   margin-top: 20px;
+   color: rgba(11, 121, 116, 1);
+}
+
+.frnd-invite-btn {
+   width: 100px;
+   height: 42px;
+   border-radius: 10px;
+   font-size: 18px;
+   background: rgba(11, 121, 116, 1);
+   color: white;
+   margin-top: 20px;
+   border: none;
+}
+
+.frnd-main {
+   display: flex;
+   margin-top: 20px;
+   justify-content: space-between;
+}
+
+.frnd-title-design {
+   width: 16px;
+   height: 32px;
+   background: #0B7974;
+   border-radius: 5px;
+}
+
+.frnd-title {
+   font-size: 23px;
+   font-weight: 500;
+   color: black;
+   padding-left: 30px;
+   padding-bottom: 30px;
+}
+
+.frnd-header-design {
+   /* width: 1575px; */
+   height: 276px;
+   background: rgba(11, 121, 116, 1);
+   border-radius: 20px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 20px;
+}
+
+.frnd-text {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   color: white;
+ }
+
+.frnd-title-01 {
+   font-size: 28px;
+   color: white;
+}
+
+.frnd-title-02 {
+   font-size: 40px;
+   font-weight: 700;
+   color: white;
+   padding-top: 10px;
+}
+
+.invite-btn {
+   width: 179px;
+   height: 56px;
+   background: rgba(11, 121, 116, 1);
+   color: white;
+   border: 1px solid white;
+   border-radius: 10px;
+   cursor: pointer;
+ }
+
+.frnd-tbl-main {
+   /* width: 1580px; */
+   height: 530px;
+   margin-top: 20px;
+   border-radius: 10px;
+}
+
+.frnd-tbl-header {
+   display: flex;
+   margin-top: 20px;
+   justify-content: space-between;
+}
+
+.frnd-tbl-title-design {
+   width: 16px;
+   height: 32px;
+   background: #0B7974;
+   border-radius: 5px;
+}
+
+.frnd-tbl-title {
+   font-size: 23px;
+   font-weight: 500;
+   color: black;
+   padding-left: 30px;
+   padding-bottom: 30px;
+}
+
+.mobile-resposive{
+   display: none;
+}
+
+@media (max-width: 1280px) {
+   .frnd-image {
+      width: 50%;
+    }
+    .frnd-title-01 {
+      font-size: 20px;
+   }
+   .frnd-title-02 {
+      font-size: 25px;
+   }
+   .frnd-text{
+      padding-left: 10px;
+   }
+}
+
+@media (max-width: 425px) {
+   .frnd-popup {
+      width: 300px;
+   }
+
+   .frnd-header-design {
+     flex-direction: column;
+     align-items: flex-start !important;
+     text-align: center;
+     height: auto;
+   }
+ 
+   .frnd-title-01,
+   .frnd-title-02 {
+     font-size: 24px;
+   }
+
+   .frnd-title-02 {
+      text-align: start;
+    }
+ 
+   .invite-btn {
+     width: 150px;
+     height: 50px;
+     margin-top: 20px;
+   }
+ 
+   .frnd-image {
+     width: 50%;
+   }
+
+   .friend-list-table{
+      display: none;
+  }
+
+  .frnd-tbl-title-design{
+      display: none;
+   }
+
+   .frnd-tbl-title {
+      padding-left: 0px !important;
+   }
+
+  .mobile-resposive{
+      display: block;
+      margin-top: 15px;
+   }
+
+ }

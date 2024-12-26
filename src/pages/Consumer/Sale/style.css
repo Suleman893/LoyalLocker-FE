@@ -1,0 +1,77 @@
+.sale-main {
+    width: 1480px;
+    height: 80vh;
+    background: white;
+    margin-top: 40px;
+     margin-left: 80px; 
+    border-radius: 10px;
+    overflow: auto;
+    align-items: center;
+}
+
+.sale-title-design {
+    width: 16px;
+    height: 32px;
+    background: #0B7974;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+
+.sale-title {
+    font-size: 23px;
+    font-weight: 500;
+    color: black;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+
+.sale-header-design {
+    width: 471px;
+    height: 42px;
+    background: #FFBC0F;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sale-header-title {
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 8px;
+}
+
+.sale-header-title-01 {
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 8px;
+    padding-right: 20px;
+}
+
+.rewards-offers-container{
+    padding: 0px 30px !important;
+}
+
+.rewards-points-button{
+    width: 159px
+}
+
+.total-ponits-value{
+    font-size:28px
+}
+
+@media (max-width: 425px) {
+    .rewards-offers-container{
+        padding: 0px 0px !important;
+    }
+    .rewards-points-button{
+        width: 129px;
+        padding: 0px !important;
+    }
+    .consumer-rewards-offers-text{
+        font-size: 20px !important;
+    }
+    .total-ponits-value{
+        font-size:16px !important
+    }
+  }

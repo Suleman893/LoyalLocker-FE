@@ -1,0 +1,93 @@
+
+.company-add-store-main-div {
+    width: auto;
+    background: white;
+    border-radius: 10px;
+    padding: 0px 10px 0px 20px;
+  }
+
+.csf-header-div {
+    display: flex;
+    background: white;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.csf-title-design {
+    width: 16px;
+    height: 32px;
+    background: #0B7974;
+    border-radius: 10px;
+    /* margin-left: 30px; */
+}
+
+.csf-title {
+    font-size: 23px;
+    font-weight: 500;
+    color: black;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+
+.csf-btn {
+    width: 122px;
+    height: 40px;
+    background: #FF5833;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.csf-localization {
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    background: rgba(255, 88, 51, 1);
+    border: none;
+    color: white;
+    margin-top: 30px;
+    margin-left: 570px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.csf-back-btn {
+    width: 240px;
+    height: 52px;
+    border: 1px solid #0B7974;
+    color: #0B7974;
+    background: white;
+    border-radius: 10px;
+    margin-top: 40px;
+    /* margin-left: 650px; */
+}
+
+.csf-update-btn {
+    width: 240px;
+    height: 52px;
+    border: none;
+    color: white;
+    background: #0B7974;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-left: 50px;
+    /* margin-right: 50px; */
+}
+.company-main-height {
+    padding: 0px;
+    width: calc(100% - 260px) !important;
+    background: #fafafa;
+  }
+  .company-dashboard-main-div {
+    /* width: 100%; */
+    background: white;
+    border-radius: 10px;
+    margin: 20px 20px 0px 20px;
+    padding: 20px;
+  }
+  @media only screen and (max-width: 1024px) {
+    .csf-update-btn,.csf-back-btn {
+      width: 180px; 
+    }
+  }

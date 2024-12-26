@@ -1,0 +1,65 @@
+.arl-main-div{
+    /* width:1580px; */
+     /* height:730px; */
+     background:white;
+     margin:20px;
+     
+     border-radius:10px;
+     overflow: auto;
+}
+.arl-header-div{
+    display:flex;
+     justify-content:space-between;
+}
+.arl-title-design{
+    width:16px;
+    height:32px;
+    background:#0B7974;
+    border-radius:10px;
+    /* margin-left:30px; */
+    margin-top: 10px;
+}
+.arl-title{
+    font-size: 23px;
+     font-weight: 500;
+      color:black;
+       padding-left:30px;
+       padding-bottom:30px;
+       padding-top: 15px;
+}
+.arl-add-btn{
+    width:122px;
+     height:40px;
+     background:#FF5833;
+     color:white;
+     border:none;
+     border-radius:10px;
+     margin-right:20px;
+     margin-top: 15px;
+}
+.rule-name{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-weight: 500;
+    color: black;
+    font-size: 18px;
+    width: 250px;
+}
+.arrow-btn{
+    background-color:white;
+    border: none;
+    margin-top: 15px;
+    margin-right: 30PX;
+    margin-bottom: 10PX;
+   
+}
+.dec-btn-2{
+    width:40px;
+     height:40px;
+     background:rgba(235, 241, 249, 1);
+     color:white;
+     border:none;
+     border-radius:50%;
+    
+     /* margin-right:20px; */
+  }

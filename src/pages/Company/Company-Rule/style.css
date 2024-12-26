@@ -1,0 +1,35 @@
+.my-autocomplete-container {
+    width: 370px !important;
+    height: 45px !important;
+    border-radius: 10px !important;
+  }
+  .loader-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Adjust the height as needed */
+  }
+  .p-main-div {
+    width: auto;
+    background: white;
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 10px;
+    padding: 0px 10px 0px 20px;
+  }
+  
+  .company-main-height {
+    padding: 0px;
+    width: calc(100% - 260px) !important;
+    background: #fafafa;
+  }
+  
+  .company-dashboard-main-div {
+    /* width: 100%; */
+    background: white;
+    border-radius: 10px;
+    margin: 20px 20px 0px 20px;
+    padding: 20px;
+  }
+  

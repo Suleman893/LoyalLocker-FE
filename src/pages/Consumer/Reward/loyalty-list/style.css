@@ -1,0 +1,23 @@
+.list-main {
+    width: 1480px;
+    height: 50vh;
+    background: white;
+    margin-top: 40px;
+    margin-left: 70px;
+    border-radius: 10px;
+    overflow: auto;
+}
+
+.list-header {
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.list-title {
+    width: 16px;
+    height: 32px;
+    background: #0B7974;
+    border-radius: 10px;
+    margin-left: 30px;
+}

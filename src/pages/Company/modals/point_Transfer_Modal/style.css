@@ -1,0 +1,65 @@
+.point-card{
+   width:727px;
+   height: 329px; 
+   background-color: rgb(253, 251, 251);
+   border: none;
+   border-radius: 10px;
+}
+.popup-overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.point-card-header{
+    display: flex;
+     background: white;
+      margin-top: 20px;
+      justify-content: space-between; 
+}
+.point-card-title-design{
+    width: 16px;
+     height: 32px;
+      background: #0B7974;
+       border-radius: 10px;
+        margin-left: 30px;
+}
+.point-card-title{
+    font-size: 23px;
+     font-weight: 500;
+      color: black;
+       padding-left: 30px;
+        padding-bottom: 30px; 
+}
+.point-card-btn{
+   background: none;
+      color: white;
+       border: none;
+        border-radius: 10px;
+         margin-right: 20px;
+}
+.pc-label-01 {
+    width: 516px;
+    border-right: 1px solid rgba(239, 239, 239, 1);
+
+}
+.pc-title-01 {
+    padding-left: 50px;
+}
+.pc-value-01 {
+    font-weight: bold;
+    padding-left: 50px;
+}
+.pc-cancel-btn{
+    width: 160px;
+    height: 50px;
+    background: none;
+    border: 1px solid #0B7974;
+    border-radius: 10px;
+    margin-left: 550px;
+}

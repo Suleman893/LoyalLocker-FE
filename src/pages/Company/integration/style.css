@@ -1,0 +1,170 @@
+.sl-main-div-1{
+    width:auto;
+    height:800px;
+    background:white;
+    margin:20px;
+    border-radius:10px;
+    /* margin-left: 0px; */
+    overflow: auto;
+}
+.sl-header-div-1{
+    display:flex;
+     justify-content: space-between;
+}
+.sl-title-main-div-1{
+    display:flex;
+    background:white;
+     margin-top:20px;
+}
+.sl-title-design-1{
+    width:16px;
+    height:32px;
+    background:#0B7974;
+    border-radius:10px;
+    margin-left:30px;
+}
+.sl-title-1{
+    font-size: 23px;
+     font-weight: 500;
+      color: black;
+       padding-left: 30px; 
+}
+.sl-all-btn-1{
+    width:99px;
+    height:40px;
+    border-radius:10px;
+    margin-right:20px;
+    border:none; 
+    margin-top:20px;
+}
+.sl-add-btn-1{
+    width:159px;
+    height:40px;
+    background:#FF5833;
+    border-Radius:10px;
+    border:none;
+    margin-top:20px;
+    margin-right:20px;
+    color:white;
+   
+}
+.add-user-btn-1 {
+    width: 160px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background:#FF5833;
+    color: #F5F7FA;
+    margin-right:20px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
+  .filter-icon-1{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    margin-top: 10px;
+  }
+
+
+  /* Cards */
+
+    
+  .card-container{
+  display:flex;
+margin: auto;
+width:95%;
+margin-top:20px;
+  }
+
+  .card 
+  {
+    padding: 15px;
+    border-radius: 12px;
+    border: 1px solid #6F767E80;
+    width: 20%;
+    display:flex;
+    flex-direction: column;
+    grid-gap:10px;
+  }
+
+  .card-top{
+    display:flex;
+    grid-gap:10px;
+    padding-top: 10px;
+    font-weight: bold;
+    padding-left: 20px;
+  }
+  
+  .card-bottom{
+    display:flex;
+    grid-gap:10px;
+    padding-left: 20px;
+    justify-content: right;
+    
+  }
+  .btn-style{
+    width: 40px;
+    height: 40px;
+    border: none;
+    background-color: #ECF5F4;
+    color: #F5F7FA;
+    border-radius: 50%;
+    /* padding: 10px; */
+  }
+  .in-card-img{
+    object-fit: fill;
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+  }
+  .card-desc{
+font-size: 14px;
+padding-left: 20px;
+color: #6F767E;
+  }
+  .add-btn-style{
+    width:137px;
+    height: 36px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0B7974;
+    color: white;
+  }
+  .loader-container-1 {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100%; 
+  }
+  .p-main-div {
+    width: auto;
+    background: white;
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 10px;
+    padding: 0px 10px 0px 20px;
+  }
+  
+  .company-main-height {
+    padding: 0px;
+    width: calc(100% - 260px) !important;
+    background: #fafafa;
+  }
+  
+  .company-dashboard-main-div {
+    /* width: 100%; */
+    background: white;
+    border-radius: 10px;
+    margin: 20px 20px 0px 20px;
+    padding: 20px;
+  }
+  @media only screen and (max-width: 1440px) {
+    .card {
+width: 35%;
+    }
+  }

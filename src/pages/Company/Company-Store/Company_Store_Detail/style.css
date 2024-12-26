@@ -1,0 +1,117 @@
+.csd-main-div {
+    width: 1550px;
+    height: 171px;
+    border-radius: 10px;
+    background: white;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.p-main-div {
+    width: auto;
+    background: white;
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 10px;
+    padding: 0px 10px 0px 20px;
+  }
+
+.csd-title-design {
+    width: 16px;
+    height: 32px;
+    background: #0B7974;
+    border-radius: 10px;
+    /* margin-left: 30px; */
+    margin-top: 20px;
+}
+
+.csd-title {
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+    padding-Left: 30px;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+
+.csd-label-01 {
+    width: 45rem;
+    /* border-right: 1px solid rgba(239, 239, 239, 1); */
+
+}
+
+.csd-title-01 {
+    color: #888888;
+    font-weight: 600;
+    font-size: 13px;
+    /* text-align: center; */
+}
+
+.csd-value-01 {
+    font-weight: 400;
+    font-size: 18px;
+    /* text-align: center; */
+}
+
+.csd-main-div-02 {
+    width: 1550px;
+    height: 346px;
+    border-radius: 10px;
+    background: white;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.csd-label-02 {
+    width: 725px;
+    /* border-right: 1px solid rgba(239, 239, 239, 1); */
+}
+
+/* .csd-label-02 {
+    width: 387px;
+    border-right: 1px solid rgba(239, 239, 239, 1);
+} */
+
+.csd-back-btn {
+    width: 240px;
+    height: 56px;
+    border: 1px solid #0B7974;
+    color: #0B7974;
+    border-radius: 10px;
+    margin-left: 51px;
+    margin-top: 10px;
+    font-weight: bold;
+    background: white;
+}
+.company-store-main-div {
+    width: auto;
+    background: white;
+    border-radius: 10px;
+    padding: 0px 10px 0px 20px;
+  }
+  .company-main-height {
+    padding: 0px;
+    width: calc(100% - 260px) !important;
+    background: #fafafa;
+  }
+  .company-dashboard-main-div {
+    /* width: 100%; */
+    background: white;
+    border-radius: 10px;
+    margin: 20px 20px 0px 20px;
+    padding: 20px;
+  }
+  .company-store-status{
+display: flex;
+align-items: center;
+gap: 0px;
+justify-content: flex-start;
+/* padding-left: 4rem; */
+  }
+  @media (max-width: 1440px) {
+    .csd-main-div,.csd-main-div-02{
+        width: auto;
+        height: auto;
+    }
+  
+  }

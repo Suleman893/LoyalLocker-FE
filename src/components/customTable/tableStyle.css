@@ -1,0 +1,13 @@
+.consumer-main-table{
+    height: auto;
+    background-color: white;
+}
+
+@media (max-width: 425px) {
+    .data-grid-2{
+        display: none !important;
+    }
+    .consumer-main-table{
+        background-color: #FAFAFA !important;
+    }
+}

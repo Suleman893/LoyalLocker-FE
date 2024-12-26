@@ -1,0 +1,24 @@
+.earn-main {
+    width: 1520px;
+    height: 100vh;
+    background: white;
+    margin-top: 40px;
+    margin-left: 60px;
+    border-radius: 10px;
+    overflow: auto;
+}
+
+.earn-header {
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+
+.earn-title {
+    width: 16px;
+    height: 32px;
+    background: #0B7974;
+    border-radius: 10px;
+    margin-left: 30px;
+}

@@ -1,0 +1,15 @@
+.css-icfq2q-MuiStack-root {
+    overflow: unset !important;
+  }
+
+  .date-container{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  }
+  @media only screen and (max-width: 1024px) {
+    .date-container {
+justify-content: space-around;
+    }
+  }
+  

@@ -1,0 +1,30 @@
+.ah-main {
+    width: 1520px;
+    height: auto;
+    background: white;
+    margin: 20px;
+    border-radius: 10px;
+    overflow: auto;
+}
+
+.ah-header {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+
+.ah-title {
+    width: 16px;
+    height: 32px;
+    background: #0B7974;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+
+.active-card {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 20px;
+}

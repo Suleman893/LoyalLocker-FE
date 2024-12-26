@@ -1,0 +1,85 @@
+.ap-main-div {
+    width: 1585px;
+    height: 211px;
+    border-radius: 10px;
+    background: #FF5833;
+    margin-left: 30px;
+    margin-top: 20px;
+    display: flex;
+}
+
+.ap-profile-img {
+    width: 139px;
+    height: 139px;
+    border-radius: 50%;
+    margin-top: 35px;
+    margin-left: 50px;
+    object-fit: cover;
+}
+
+.ap-content {
+    padding-left: 30px;
+    padding-top: 20px;
+    color: white;
+}
+
+.ap-content-01 {
+    font-size: 40px;
+    font-weight: 600;
+    font-family: Poppins;
+    color: white;
+}
+
+.ap-content-02 {
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: Poppins;
+}
+
+.ap-view-btn {
+    width: 189px;
+    height: 56px;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-size: 18px;
+    color: white;
+    background: #FF5833;
+    margin-left: 500px;
+    margin-top: 81px;
+}
+.ap-edit-btn{
+    width: 189px;
+     height: 56px;
+      border: 1px solid white;
+       border-radius: 10px;
+       font-size:18px;
+        color: white;
+         background: #0B7974;
+         margin-left:20px;
+         margin-top:81px;
+}
+.ap-tbl-main-div{
+    margin-top:30px;
+    width:1585px;
+    background:white;
+    margin-left:30px;
+}
+.ap-header-div{
+    display:flex;
+    width:1555px;
+    background:white; 
+}
+.ap-title-design{
+    width:16px;
+    height:32px;
+    background:#0B7974;
+    border-radius:10px;
+    margin-left:30px;
+}
+.ap-title{
+    font-size: 23px;
+     font-weight: 500;
+      color: black;
+       padding-left: 30px;
+}

@@ -1,0 +1,70 @@
+.cf-main-div {
+    width: auto;
+    height: auto;
+    background: white;
+    border-radius: 10px;
+    margin: 20px;
+    /* margin-left: 20px; */
+}
+
+.cf-title-design {
+    width: 16px;
+    height: 32px;
+    background: #0B7974;
+    border-radius: 5px;
+    margin-left: 30px;
+    margin-top: 20PX;
+}
+
+.cf-title {
+    font-size: 23px;
+    font-weight: 500;
+    color: black;
+    padding-left: 30px;
+    padding-top: 20PX;
+}
+
+.cf-fields {
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 50%;
+}
+
+.cf-back-btn {
+    width: 240px;
+    height: 52px;
+    border: 1px solid #0B7974;
+    color: #0B7974;
+    background: white;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+.cf-save-btn {
+    width: 240px;
+    height: 52px;
+    border: none;
+    color: white;
+    background: #0B7974;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.admin-main-height {
+    padding: 0px;
+    width: calc(100% - 260px) !important;
+    background: #fafafa;
+  }
+  .admin-dashboard-main-div {
+    /* width: 100%; */
+    background: white;
+    border-radius: 10px;
+    margin: 20px 20px 0px 20px;
+    padding: 20px;
+  }
+  @media (max-width: 1024px) {
+    .cf-save-btn,.cf-back-btn{
+width: 180px;
+    }
+   
+  }

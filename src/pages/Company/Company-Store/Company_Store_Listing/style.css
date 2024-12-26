@@ -1,0 +1,89 @@
+.company-store-main-div {
+  width: auto;
+  background: white;
+  border-radius: 10px;
+  padding: 0px 10px 0px 20px;
+}
+.csl-header-div{
+    display:flex;
+     justify-content: space-between;
+}
+.csl-title-main-div{
+    display:flex;
+    background:white;
+     margin-top:20px;
+}
+.csl-title-design{
+    width:16px;
+    height:32px;
+    background:#0B7974;
+    border-radius:10px;
+    margin-left:30px;
+}
+.csl-title{
+    font-size: 23px;
+     font-weight: 500;
+      color: black;
+       padding-left: 30px; 
+}
+.csl-all-btn{
+    width:99px;
+    height:40px;
+    border-radius:10px;
+    margin-right:20px;
+    border:1px solid rgba(239, 239, 239, 1); 
+    outline: none;
+}
+.csl-add-btn{
+    width:159px;
+    height:40px;
+    background:#FF5833;
+    border-Radius:10px;
+    border:none;
+    margin-top:20px;
+    margin-right:20px;
+    color:white;
+}
+.csl-card-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+    .csl-loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+  }
+  .csl-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .company-main-height {
+    padding: 0px;
+    width: calc(100% - 260px) !important;
+    background: #fafafa;
+  }
+  .company-dashboard-main-div {
+    /* width: 100%; */
+    background: white;
+    border-radius: 10px;
+    margin: 20px 20px 0px 20px;
+    padding: 20px;
+  }
+  
+  @media (max-width: 1024px) {
+    .csl-card-wrapper {
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .csl-card-wrapper {
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+  }
+  
+  

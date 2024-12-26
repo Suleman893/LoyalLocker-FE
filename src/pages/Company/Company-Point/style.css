@@ -1,0 +1,85 @@
+.cancel-btn{
+    width:160px ;
+    height:42px ;
+    border: 1px solid #09D8C4;
+    border-radius: 5px;
+    font-size: 18px;
+    background: none;
+    margin-top: 120px;
+    margin-left: 900px;
+    color: #09D8C4;
+    margin-bottom:20px;
+}
+.user-popup-point{
+    width: 1100px;
+    height: 600px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.p-main-div {
+    width: auto;
+    background: white;
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 10px;
+    padding: 0px 10px 0px 20px;
+  }
+  .company-main-height {
+    padding: 0px;
+    width: calc(100% - 260px) !important;
+    background: #fafafa;
+  }
+  
+  .company-dashboard-main-div {
+    /* width: 100%; */
+    background: white;
+    border-radius: 10px;
+    margin: 20px 20px 0px 20px;
+    padding: 20px;
+  }
+  .company-transfer-cancel-btn{
+    width: 240px;
+    height: 52px;
+    border: 1px solid #0B7974;
+    color: #0B7974;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 40px;
+  }
+  .company-transfer-save-btn{
+    width: 240px;
+    height: 52px;
+    border: none;
+    color: white;
+    background-color: #0B7974;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-left: 20px;
+  }
+  .company-coupon-fetch-btn{
+    position: absolute;
+    top: 34px;
+    right: 10px;
+    background: #0B7974;
+    color: #fff;
+    padding: 13px 20px;
+    border-radius: 7px;
+    border: none;
+    width: 10%;
+    font-weight: bold;
+  }
+  @media only screen and (max-width: 1024px) {
+    
+    .company-transfer-cancel-btn,.company-transfer-save-btn{
+      width: 180px;
+    }
+   
+  }
+  @media only screen and (max-width: 1440px) {
+    
+    .company-coupon-fetch-btn{
+      width: auto;
+    }
+  }

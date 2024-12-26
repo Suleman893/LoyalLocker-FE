@@ -1,0 +1,48 @@
+
+.p-main-div {
+    width: auto;
+    background: white;
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 10px;
+    padding: 0px 10px 0px 20px;
+  }
+  .admin-main-height {
+    padding: 0px;
+    width: calc(100% - 260px) !important;
+    background: #fafafa;
+  }
+  
+  .admin-dashboard-main-div {
+    /* width: 100%; */
+    background: white;
+    border-radius: 10px;
+    margin: 20px 20px 0px 20px;
+    padding: 20px;
+  }
+  .admin-transfer-cancel-btn{
+    width: 240px;
+    height: 52px;
+    border: 1px solid #0B7974;
+    color: #0B7974;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 40px;
+  }
+  .admin-transfer-save-btn{
+    width: 240px;
+    height: 52px;
+    border: none;
+    color: white;
+    background-color: #0B7974;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-left: 20px;
+  }
+  @media only screen and (max-width: 1024px) {
+    
+    .admin-transfer-cancel-btn,.admin-transfer-save-btn{
+      width: 180px;
+    }
+  }

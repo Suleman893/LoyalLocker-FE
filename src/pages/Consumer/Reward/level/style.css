@@ -1,0 +1,52 @@
+.level-main {
+    width: 1480px;
+    height: 65vh;
+    background: white;
+    margin-top: 40px;
+    margin-left: 70px;
+    border-radius: 10px;
+    overflow: auto;
+}
+
+.level-header {
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.level-title-design {
+    width: 16px;
+    height: 32px;
+    background: #0B7974;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+
+.level-bronze {
+    font-size: 20px;
+    font-weight: 700;
+    color: #0B7974;
+    margin-left: 950px;
+    margin-top: 20px;
+}
+
+.level-silver {
+    font-size: 20px;
+    font-weight: 700;
+    color: #0B7974;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+.level-card-header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.level-card-title {
+    padding-left: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #0B7974;
+}

@@ -1,0 +1,57 @@
+.consumer-dashboard-cards {
+  min-height: 100%;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.consumer-dashboard-card-2 {
+  min-height: 148px !important;
+}
+
+.consumer-dashboard-card-2-image{
+  height: 148px !important;
+}
+
+.cash-img {
+  height: 119px;
+  width: 120px;
+  border-radius: 20px;
+}
+
+.sale-image {
+  width: 100%;
+  height: 100%;
+}
+
+.reward-img {
+  height: 100%;
+  border-radius: 20px;
+}
+
+.consumer-dashboard-points{
+  font-size: 48px;
+  font-weight: 600;
+  padding-left: 20px;
+  white-space: pre-wrap; 
+  word-break: break-all;
+}
+
+@media (max-width: 1200px) {
+  .consumer-dashboard-points {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 425px) {
+  .consumer-dashboard-card-2 {
+    min-height: 148px !important;
+  }
+}
+
+@media (max-width: 375px) {
+  .consumer-dashboard-card-2 {
+    min-height: 200px !important;
+  }
+
+}
+

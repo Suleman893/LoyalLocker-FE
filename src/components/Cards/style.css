@@ -1,0 +1,384 @@
+/* .transaction {
+  width: 520px;
+  height: 145px;
+  border-radius: 10px;
+  margin-left: 20px;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  border: 1px solid rgba(189, 189, 189, 1);
+} */
+/* .main-card {
+  display: flex;
+} */
+/* .cash-img {
+  height: 119px;
+  width: 120px;
+  border-radius: 20px;
+  margin-left: 30px;
+  margin-top: 10px;
+ 
+} */
+.sale {
+  width: 520px;
+  height: 145px;
+  border-radius: 10px;
+  margin-left: 20px;
+
+  color: white;
+  border: 1px solid rgba(189, 189, 189, 1);
+}
+.reward {
+  width: 520px;
+  height: 145px;
+  border-radius: 10px;
+  margin-left: 20px;
+  color: white;
+  border: 1px solid rgba(189, 189, 189, 1);
+}
+
+/* .reward-img {
+  height: 110px;
+  width: 280px;
+  border-radius: 20px;
+  margin-left: 30px;
+  margin-top: 5px;
+} */
+/* .sale-image {
+  width: 500px;
+  height: 130px;
+  margin-top: 5px;
+  margin-left: 10px;
+} */
+.free {
+  width: 520px;
+  height: 145px;
+  border-radius: 10px;
+  margin-left: 20px;
+  color: white;
+  border: 1px solid rgba(189, 189, 189, 1);
+}
+.faq {
+  width: 353px;
+  height: 235px;
+  border-radius: 10px;
+  margin-left: 20px;
+  background-color: #9c96c6;
+}
+.faq-img {
+  padding-left: 50px;
+}
+.visit {
+  height: 235px;
+  width: 500px;
+  border-radius: 10px;
+  margin-left: 20px;
+  background-color: #acb3f7;
+}
+.card1 {
+  height: 132px;
+  width: 500px;
+  border-radius: 10px;
+  background-size: cover;
+  margin-left: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card2 {
+  height: 132px;
+  width: 500px;
+  border-radius: 10px;
+  background-color: #f4992f;
+  margin-left: 20px;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  background-size: cover;
+}
+.card3 {
+  height: 132px;
+  width: 500px;
+  border-radius: 10px;
+  background-color: #e25927;
+  margin-left: 20px;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  background-size: cover;
+}
+.main-cards-small {
+  display: flex;
+}
+.card1-title {
+  font-size: 20px;
+  padding-left: 30px;
+}
+.card1-desc {
+  font-size: 25px;
+  padding-left: 30px;
+}
+.card1-point {
+  font-size: 50px;
+  font-weight: 700;
+  padding-right: 40px;
+  padding-bottom: 50px;
+}
+.store-card {
+  height: 124px;
+  border: 1px solid #2222220f;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  width: 325px;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+.store-card-2 {
+  width: 360px;
+  height: 154px;
+  border: 1px solid #2222220f;
+  border-radius: 10px;
+}
+.store-card-img {
+  width: 90px;
+  height: 90px;
+  border: 1px solid #2222220f;
+  border-radius: 5px;
+  margin-top: 15px;
+  margin-left: 5px;
+}
+.comp-card {
+  width: 360px;
+  height: 155px;
+  border: 1px solid #2222220f;
+  border-radius: 10px;
+}
+.comp-img {
+  width: 90px;
+  height: 90px;
+  border: 1px solid #2222220f;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+.card4 {
+  height: 242px;
+  width: 520px;
+  border-radius: 10px;
+  /* background-color: rgba(181, 228, 202, 0.25); */
+  background-size: cover;
+  margin-left: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card5 {
+  height: 242px;
+  width: 520px;
+  border-radius: 10px;
+  background-color: rgba(177, 229, 252, 0.25);
+  margin-left: 20px;
+  display: flex;
+  justify-content: space-between;
+  color: black;
+
+  background-size: cover;
+}
+.card6 {
+  height: 242px;
+  width: 520px;
+  border-radius: 10px;
+  background-color: rgba(202, 189, 255, 0.25);
+  margin-left: 20px;
+  display: flex;
+  justify-content: space-between;
+  color: black;
+
+  background-size: cover;
+}
+.card2-title {
+  font-size: 30px;
+  padding-left: 100px;
+  font-weight: 500;
+}
+.card2-desc {
+  font-size: 12px;
+  padding-left: 30px;
+}
+.card2-point {
+  font-size: 100px;
+  font-weight: 700;
+  padding-left: 130px;
+}
+.main-card-2 {
+  display: flex;
+  margin-top: 20px;
+}
+
+.switch-btn1 {
+  color: #09d8c4;
+  margin-left: 30px;
+}
+@media (max-width: 1440px) {
+  /* .transaction {
+    width: 353px;
+    height: 145px;
+    border-radius: 10px;
+    margin-left: 20px;
+    display: flex;
+    color: white;
+    border: 1px solid rgba(189, 189, 189, 1);
+  } */
+  .main-card {
+    display: flex;
+  }
+  /* .cash-img {
+    height: 119px;
+    width: 120px;
+    border-radius: 20px;
+    margin-left: 30px;
+    margin-top: 10px;
+  } */
+  .sale {
+    width: 353px;
+    height: 145px;
+    border-radius: 10px;
+    margin-left: 20px;
+    color: white;
+    border: 1px solid rgba(189, 189, 189, 1);
+  }
+  .reward {
+    width: 353px;
+    height: 145px;
+    border-radius: 10px;
+
+    margin-left: 20px;
+
+    color: white;
+    border: 1px solid rgba(189, 189, 189, 1);
+  }
+  /* .reward-img {
+    height: 110px;
+    width: 280px;
+    border-radius: 20px;
+    margin-left: 30px;
+    margin-top: 5px;
+  } */
+  .free {
+    width: 353px;
+    height: 145px;
+    border-radius: 10px;
+
+    margin-left: 20px;
+
+    color: white;
+    border: 1px solid rgba(189, 189, 189, 1);
+  }
+  .faq {
+    width: 353px;
+    height: 235px;
+    border-radius: 10px;
+    margin-left: 20px;
+    background-color: #9c96c6;
+  }
+  .faq-img {
+    padding-left: 50px;
+  }
+  .visit {
+    height: 235px;
+    width: 500px;
+    border-radius: 10px;
+    margin-left: 20px;
+    background-color: #acb3f7;
+  }
+  .card1 {
+    height: 132px;
+    width: 580px;
+    border-radius: 10px;
+    background-size: cover;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .card2 {
+    height: 132px;
+    width: 500px;
+    border-radius: 10px;
+    background-color: #f4992f;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-size: cover;
+  }
+  .card3 {
+    height: 132px;
+    width: 500px;
+    border-radius: 10px;
+    background-color: #e25927;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-size: cover;
+  }
+  .main-cards-small {
+    display: flex;
+  }
+  /* .sale-image {
+    width: 330px;
+    height: 130px;
+    margin-top: 5px;
+    margin-left: 10px;
+  } */
+  .card4 {
+    height: 242px;
+    width: 353px;
+    border-radius: 10px;
+    background-color: rgba(181, 228, 202, 0.25);
+    background-size: cover;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .card5 {
+    height: 242px;
+    width: 353px;
+    border-radius: 10px;
+    background-color: rgba(177, 229, 252, 0.25);
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    background-size: cover;
+  }
+  .card6 {
+    height: 242px;
+    width: 353px;
+    border-radius: 10px;
+    background-color: rgba(202, 189, 255, 0.25);
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    color: black;
+
+    background-size: cover;
+  }
+  .faq {
+    width: 400px;
+    margin-top: 20px;
+  }
+  .visit {
+    width: 400px;
+    margin-top: 20px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .store-card {
+width: 300px !important;
+  }
+}

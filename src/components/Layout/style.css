@@ -1,0 +1,19 @@
+.mobile-header-section{
+  display: none !important;
+}
+
+.sidebar-3{
+  width: 260px !important;
+}
+
+@media (max-width: 425px) {
+    .web-header-section{
+      display: none !important;
+    }
+    .mobile-header-section{
+      display: inline-flex !important;
+    }
+    .mobile-header-section-toggle{
+      display: none !important;
+    }
+  }

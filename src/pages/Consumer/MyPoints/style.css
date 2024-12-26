@@ -1,0 +1,56 @@
+.atl-main-div-1{
+    width:1580px;
+     height:auto;
+     background:white;
+     margin-top:40px;
+     /* margin-left:50px; */
+     border-radius:10px;
+     padding:0px 10px 0px 20px ;
+}
+.atl-header-1{
+    display:flex;
+    background:white;
+     margin-top:20px;
+     justify-content:space-between;
+}
+.atl-header-design-1{
+    width:16px;
+    height:32px;
+    background:#0B7974;
+    border-radius:10px;
+}
+.atl-title-1{
+    font-size: 23px;
+     font-weight: 500;
+      color: black;
+       padding-left: 30px;
+       padding-bottom:30px;
+}
+.atl-title-design-1{
+    
+}
+
+.points-mobile-cards{
+    height: 144px;
+    background-color: #FFFFFF;
+    padding: 16px;
+    border-radius: 12px;
+    margin-bottom: 15px;
+}
+
+.points-mobile-resposive{
+    display: none;
+}
+
+@media (max-width: 425px) {
+    /* .points-table{
+        display: none;
+    } */
+    .points-mobile-resposive{
+        display: block;
+        margin-top: 15px;
+    }
+    .atl-header-1{
+        background:#FAFAFA !important;
+    }
+  }

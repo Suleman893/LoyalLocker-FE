@@ -1,0 +1,59 @@
+.ptl-main-div{
+    width:auto;
+     height:auto;
+     background:white;
+     margin-top:40px;
+     border-radius:10px;
+     padding:0px 10px 0px 20px ;
+}
+.ptl-header-div{
+    display:flex;
+    justify-content:space-between;
+}
+.ptl-title-design{
+    width:16px;
+    height:32px;
+    background:#0B7974;
+    border-radius:5px;
+    /* margin-left:30px; */
+    margin-top:10px;
+}
+.ptl-title{
+    font-size: 23px;
+     font-weight: 500;
+      color: black;
+       padding-left: 30px;
+       padding-bottom:30px;
+       padding-top: 10px;
+}
+.ptl-now-btn-1{
+    width:auto;
+     height:40px;
+     background:#FF5833;
+     color:white;
+     border:none;
+     border-radius:10px;
+     margin-right:20px; 
+     margin-top:10px; 
+}
+.cl-switch-btn-1 {
+    width: 46px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background: rgba(11, 121, 116, 1);
+    /* margin-top: 20px */
+  }
+  .admin-main-height {
+    padding: 0px;
+    width: calc(100% - 260px) !important;
+    background: #fafafa;
+  }
+  
+  .admin-dashboard-main-div {
+    /* width: 100%; */
+    background: white;
+    border-radius: 10px;
+    margin: 20px 20px 0px 20px;
+    padding: 20px;
+  }

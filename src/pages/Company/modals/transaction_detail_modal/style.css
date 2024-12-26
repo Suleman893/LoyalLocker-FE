@@ -1,0 +1,68 @@
+.popup-overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.TDM-modal{
+    width: 727px;
+    height: 800px;
+    background-color: white;
+    border:'none';
+    border-radius: 10px;
+}
+.tdm-card-title-design{
+    width: 16px;
+    height: 32px;
+     background: #0B7974;
+      border-radius: 10px;
+       margin-left: 30px;
+}
+.tdm-card-title{
+    font-size: 23px;
+    font-weight: 500;
+     color: black;
+      padding-left: 30px;
+       padding-bottom: 30px; 
+}
+.tdm-card-header{
+    display: flex;
+     background: white;
+      margin-top: 20px;
+      justify-content: space-between; 
+}
+.tdm-card-btn{
+    background: none;
+      color: white;
+       border: none;
+        border-radius: 10px;
+         margin-right: 20px; 
+}
+.tdm-basic-info{
+    width: 130px;
+    height: 30px;
+    background-color: #FF5833;
+    border-radius: 10px;
+    margin-left: 300px;
+    color: white;
+    padding-top: 10px;
+    padding-left: 15px;
+    margin-top: 20px;
+}
+.tdm-label-01{
+    width: 516px;
+    border-right: 1px solid rgba(239, 239, 239, 1);
+
+}
+.tdm-title-01{
+    padding-left: 50px;
+}
+.tdm-value-01{
+    font-weight: bold;
+    padding-left: 50px;
+}

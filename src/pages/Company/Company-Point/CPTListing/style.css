@@ -1,0 +1,41 @@
+.cpt-main-div{
+    width:1490px;
+     height:82vh;
+     background:white;
+     margin-top:40px;
+     margin-left:50px;
+     border-radius:10px;
+     padding:0px 10px 0px 20px ;
+}
+.p-main-div {
+    width: auto;
+    background: white;
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 10px;
+    padding: 0px 10px 0px 20px;
+  }
+  .company-main-height {
+    padding: 0px;
+    width: calc(100% - 260px) !important;
+    background: #fafafa;
+  }
+  
+  .company-dashboard-main-div {
+    /* width: 100%; */
+    background: white;
+    border-radius: 10px;
+    margin: 20px 20px 0px 20px;
+    padding: 20px;
+  }
+  .input-container {
+ 
+    display: flex;
+    justify-content: space-between;
+}
+@media only screen and (max-width: 1024px) {
+    .input-container {
+      flex-direction: column; 
+    }
+  }

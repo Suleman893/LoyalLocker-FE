@@ -1,0 +1,128 @@
+.rf-main-div-1{
+    /* width:1480px; */
+     height:700px;
+     background:white;
+     margin-top:20px;
+     margin-left:20px;
+     border-radius:10px;
+}
+
+.rf-title-design-1{
+    width: 400px;
+    height: 70px;
+    font-size: 23px;
+     font-weight:500;
+      color: black;
+     
+      padding-bottom:5px;
+      background-color:#FF5833 ;
+      margin-bottom: 10px;
+      margin-top: 10px;
+}
+.rf-title-btn-1{
+    width: 200px;
+    height: 56px;
+    font-size: 23px;
+     font-weight:500;
+      color: black;
+      padding-bottom:30px;
+      background-color:#f3f7f6 ; 
+      margin-left: 10px;
+      border: none;
+      border-radius: 10px;
+      margin-top: 10px;
+      padding-top: 10px;
+}
+.rf-title-btn2-1{
+    width: 200px;
+    height: 56px;
+    font-size: 23px;
+     font-weight:500;
+      color: black;
+      padding-bottom:30px;
+      background-color:#0B7974 ; 
+      margin-left: 10px;
+      border: none;
+      border-radius: 10px;
+      margin-top: 10px;
+      padding-top: 10px;
+}
+.reward-btn-1{
+width: 220px;
+height: 40px;
+border: none;
+border-radius: 10px;
+background-color:#FF5833 ;
+color: white;
+margin-top: 10px;
+}
+.rf-title-design2-1 {
+    width: 16px;
+    height: 32px;
+    background: #0B7974;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+
+.rf-title2-1 {
+    font-size: 23px;
+    font-weight: 500;
+    color: black;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+.r-restructions-1{
+    font-size: 14px;
+    color: #0B7974;
+     font-weight: 500;
+     padding-top: 20px;
+     padding-left: 50px;
+}
+.rf-values-1{
+    width: 1170px;
+    height: 90px;
+    border: 1px solid #BDBDBD;
+    border-radius: 10px;
+    font-size: 12px;
+    color:  #A2A1A7;
+    margin-left: 50px;
+    padding-left: 10px;
+    padding-top: 10px;
+    text-align: justify;
+    padding-right: 10px;
+   
+}
+.rf-back-btn-1 {
+    width: 240px;
+    height: 52px;
+    border: 1px solid #0B7974;
+    color: #0B7974;
+    background: white;
+    border-radius: 10px;
+    margin-top: 40px;
+    /* margin-left: 700px; */
+}
+
+.rf-update-btn-1 {
+    width: 240px;
+    height: 52px;
+    border: none;
+    color: white;
+    background: #0B7974;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+.of-main-div-1{
+    width:1480px;
+    height:750px;
+    background:white;
+    margin-top:20px;
+    margin-left:20px;
+    border-radius:10px;  
+}
+@media only screen and (max-width: 1024px) {
+    .rf-back-btn-1,.rf-update-btn-1 {
+width: 180px;
+    }
+  }
